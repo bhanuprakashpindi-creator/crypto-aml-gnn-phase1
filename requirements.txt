@@ -1,0 +1,11 @@
+# Core Data Science & Scientific Computing
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0
+
+# Deep Learning & Graph Machine Learning
+torch>=2.2.0
+torch_geometric>=2.5.0
+
+# Utilities & Research Verification
+pypdf>=4.0.0

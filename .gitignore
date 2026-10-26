@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Raw Elliptic Dataset (Redistribution restriction - keep structure via .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+
+# Large Processed Data Artifacts (Generate locally via `python -m scripts.run_phase1`)
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.pt
+data/processed/*.json
+!data/processed/.gitkeep
+
+# Temporary / Log files
+*.log
+scratch/
+tmp/
